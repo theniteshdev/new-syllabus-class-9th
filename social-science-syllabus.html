@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 9 Social Science (2026–27)</title>
+
+    <style>
+
+        :root {
+            --bg: #f9fafb;
+            --text: #1a1a1a;
+            --card: #ffffff;
+            --accent: #9333ea;
+
+            --border: #e5e7eb;
+        }
+
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0f172a;
+                --text: #e5e7eb;
+                --card: #1e293b;
+                --accent: #c084fc;
+                --border: #334155;
+            }
+        }
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            padding: 20px;
+        }
+
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 8px 16px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            text-decoration: none;
+            color: var(--text);
+        }
+
+        .back-btn:hover {
+            background: var(--accent);
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--accent);
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            margin-bottom: 25px;
+            opacity: 0.8;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 15px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            padding: 15px;
+            border-radius: 12px;
+            transition: 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .card span {
+            display: block;
+            font-size: 0.8rem;
+            opacity: 0.6;
+            margin-bottom: 5px;
+        }
+
+        .insight {
+            margin-top: 30px;
+            padding: 15px;
+            border-radius: 12px;
+            background: var(--card);
+            border: 1px solid var(--border);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.85rem;
+            opacity: 0.6;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <a href="javascript:history.back()" class="back-btn">⬅ Back</a>
+
+   
+        <h1>🌍 Class 9 Social Science</h1>
+        <p class="subtitle">Session 2026–27</p>
+
+ 
+        <div class="section">
+            <h2>📜 History</h2>
+            <div class="grid">
+                <div class="card"><span>Chapter 1</span>French Revolution</div>
+                <div class="card"><span>Chapter 2</span>Socialism & Russian Revolution</div>
+                <div class="card"><span>Chapter 3</span>Nazism & Hitler</div>
+                <div class="card"><span>Chapter 4</span>Forest Society</div>
+                <div class="card"><span>Chapter 5</span>Pastoralists</div>
+            </div>
+        </div>
+
+  
+        <div class="section">
+            <h2>🌏 Geography</h2>
+            <div class="grid">
+                <div class="card"><span>Chapter 1</span>India: Size & Location</div>
+                <div class="card"><span>Chapter 2</span>Physical Features</div>
+                <div class="card"><span>Chapter 3</span>Drainage</div>
+                <div class="card"><span>Chapter 4</span>Climate</div>
+                <div class="card"><span>Chapter 5</span>Vegetation & Wildlife</div>
+                <div class="card"><span>Chapter 6</span>Population</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🏛️ Civics</h2>
+            <div class="grid">
+                <div class="card"><span>Chapter 1</span>What is Democracy?</div>
+                <div class="card"><span>Chapter 2</span>Constitutional Design</div>
+                <div class="card"><span>Chapter 3</span>Electoral Politics</div>
+                <div class="card"><span>Chapter 4</span>Working of Institutions</div>
+                <div class="card"><span>Chapter 5</span>Democratic Rights</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>💰 Economics</h2>
+            <div class="grid">
+                <div class="card"><span>Chapter 1</span>Village Palampur</div>
+                <div class="card"><span>Chapter 2</span>People as Resource</div>
+                <div class="card"><span>Chapter 3</span>Poverty</div>
+                <div class="card"><span>Chapter 4</span>Food Security</div>
+            </div>
+        </div>
+
+        <footer>
+            Made by thenitesh 🚀
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
